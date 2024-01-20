@@ -13,16 +13,32 @@ function CommentTable({ className }: Default): React.JSX.Element {
       <p className="text-base text-neutral-600 mt-2">
         getFirestore API를 사용해서 작성했습니다. 해당 코드를 확인해보세요.
       </p>
-      <div className="grid mt-8 gap-4 text-neutral-600 text-xl">
-        <div>
-          <h1 className="text-sm text-neutral-500">2023 01 02</h1>
-          <p>HELLO</p>
-        </div>
-        <p>HELLO</p>
-        <p>HELLO</p>
-        <p>HELLO</p>
+      <div className="block mt-8 text-neutral-600 text-xl">
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
       </div>
     </section>
   );
 }
 export default CommentTable;
+
+function Comment({ className }: Default) {
+  return (
+    <div
+      className={`w-fit inline-block bg-white px-8 py-4 mr-4 mb-4 rounded shadow ${className}`}
+    >
+      <h1 className="text-sm text-neutral-500">2023 01 02</h1>
+      <p>Hello, Nice 2 Meet You</p>
+    </div>
+  );
+}
