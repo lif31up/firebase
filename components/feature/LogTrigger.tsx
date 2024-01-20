@@ -21,7 +21,7 @@ export default function LogTrigger({ className }: Default) {
         확인해보세요.
       </p>
       <button
-        className="w-fit h-fit px-8 py-4 mt-8 text-white text-2xl font-extrabold rounded bg-emerald-300 shadow"
+        className="w-fit h-fit px-8 py-4 mt-8 text-white text-2xl font-extrabold rounded bg-yellow-400 shadow"
         onClick={clickHandler}
       >
         로그 남기기

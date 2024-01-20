@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c61f93a0-4f8f-4a27-b089-d5815102ba77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/Firebase.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/feature/LogTrigger.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/feature/Uploader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/fbconfig.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/interface.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/feature/Authenticator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/feature/CommentTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/feature/LogTrigger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/feature/LogTrigger.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/feature/Uploader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/feature/Uploader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +51,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Projects/Programming/github/firebase-practice/components/feature",
+    "last_opened_file_path": "C:/Projects/Programming/github/firebase",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Projects\\Programming\\github\\firebase-practice\\node_modules\\prettier",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Projects\\Programming\\github\\firebase\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Projects\\Programming\\github\\firebase-practice\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Projects\\Programming\\github\\firebase\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,6 +104,7 @@
       <workItem from="1699605456302" duration="2353000" />
       <workItem from="1699665195340" duration="9000" />
       <workItem from="1705670610005" duration="7105000" />
+      <workItem from="1705748296943" duration="1779000" />
     </task>
     <servers />
   </component>

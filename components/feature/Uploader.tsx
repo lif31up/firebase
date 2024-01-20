@@ -11,7 +11,14 @@ export default function LogTrigger({ className }: Default) {
     data: Data,
     setData: React.Dispatch<SetStateAction<Data>>
   ] = useState({ comment: "" });
+  const handleKeyDown = (event: React.KeyboardEvent): void => {
+    if (event.key === "Enter") {
+      clickHandler();
+      setData({ comment: "" });
+    }
+  };
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
+    event.preventDefault();
     setData({ comment: event.target.value });
   };
   const clickHandler = (): void => {
@@ -37,12 +44,13 @@ export default function LogTrigger({ className }: Default) {
         <input
           value={data.comment}
           onChange={handleChange}
+          onKeyDown={handleKeyDown}
           className="text-xl py-4 pl-4 border"
           placeholder="type your comment"
         />
       </label>
       <button
-        className="w-fit h-fit px-8 py-4 mt-8 text-white text-2xl font-extrabold rounded bg-emerald-300 shadow"
+        className="w-fit h-fit px-8 py-4 mt-8 text-white text-2xl font-extrabold rounded bg-yellow-400 shadow"
         onClick={clickHandler}
       >
         댓글 남기기
