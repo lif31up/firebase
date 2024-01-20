@@ -1,0 +1,6 @@
+{
+	"extends": ["next", "prettier"],
+	"rules": {
+	"quote-props": [2, "as-needed"]
+}
+}
