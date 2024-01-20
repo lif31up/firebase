@@ -42,6 +42,7 @@ export default function LogTrigger({ className }: Default) {
       </p>
       <label className="mr-8 w-fit h-fit text-xl">
         <input
+          name="comment"
           value={data.comment}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
