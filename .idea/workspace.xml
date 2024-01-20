@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c61f93a0-4f8f-4a27-b089-d5815102ba77" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/feature/Uploader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/feature/Uploader.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="c61f93a0-4f8f-4a27-b089-d5815102ba77" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +98,7 @@
       <workItem from="1699665195340" duration="9000" />
       <workItem from="1705670610005" duration="7105000" />
       <workItem from="1705748296943" duration="2660000" />
-      <workItem from="1705751269089" duration="167000" />
+      <workItem from="1705751269089" duration="358000" />
     </task>
     <servers />
   </component>
