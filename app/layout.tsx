@@ -6,8 +6,8 @@ import Firebase from "@/components/common/Firebase";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Firebase Practice",
-  description: "to learn Firebase as it is",
+  title: "파이어베이스(진행중)",
+  description: "to learn Firebase",
 };
 
 export default function RootLayout({
