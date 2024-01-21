@@ -1,5 +1,5 @@
 import React from "react";
-import Default from "@/src/utils/interface";
+import Default from "@/util/interface";
 
 function CommentTable({ className }: Default): React.JSX.Element {
   return (

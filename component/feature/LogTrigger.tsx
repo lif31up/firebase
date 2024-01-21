@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { logHandler } from "@/components/common/Firebase";
-import Default from "@/src/utils/interface";
+import { logHandler } from "@/component/common/Firebase";
+import Default from "@/util/interface";
 
 export default function LogTrigger({ className }: Default) {
   const clickHandler = () => {

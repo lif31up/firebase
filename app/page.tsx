@@ -1,7 +1,7 @@
-import LogTrigger from "@/components/feature/LogTrigger";
-import Uploader from "@/components/feature/Uploader";
-import Authenticator from "@/components/feature/Authenticator";
-import CommentTable from "@/components/feature/CommentTable";
+import LogTrigger from "@/component/feature/LogTrigger";
+import Uploader from "@/component/feature/Uploader";
+import Authenticator from "@/component/feature/Authenticator";
+import CommentTable from "@/component/feature/CommentTable";
 
 export default function Home() {
   return (

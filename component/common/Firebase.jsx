@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { initializeApp } from "firebase/app";
 import { logEvent, getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
-import firebaseConfig from "@/src/utils/fbconfig";
+import firebaseConfig from "@/util/fbconfig";
 
 export function logHandler(log, option) {
   const analytics = getAnalytics(app);

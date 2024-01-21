@@ -1,7 +1,7 @@
 "use client";
 import React, { SetStateAction, useState } from "react";
-import { uploadHandler } from "@/components/common/Firebase";
-import Default from "@/src/utils/interface";
+import { uploadHandler } from "@/component/common/Firebase";
+import Default from "@/util/interface";
 
 interface Data {
   comment: string;

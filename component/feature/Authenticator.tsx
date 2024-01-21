@@ -1,4 +1,4 @@
-import Default from "@/src/utils/interface";
+import Default from "@/util/interface";
 import React from "react";
 
 function Authenticator({ className }: Default): React.JSX.Element {
